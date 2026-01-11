@@ -1,0 +1,26 @@
+{
+  "name": "uso-international",
+  "version": "1.0.0",
+  "description": "USO International - America's Digital Oil Reserve",
+  "main": "index.js",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "dev": "concurrently \"npm run frontend:dev\"",
+    "frontend:dev": "cd frontend && npm run dev",
+    "install:all": "cd frontend && npm install",
+    "git-push": "powershell -ExecutionPolicy Bypass -File ./git-push.ps1"
+  },
+  "keywords": [
+    "solana",
+    "oil",
+    "energy",
+    "tokenization",
+    "rwa"
+  ],
+  "author": "USO Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
